@@ -3,6 +3,12 @@ stellar-market-analyzer
 
 This tool shows some stats about arbitrary markets in the stellar network.
 
+## Installation
+
+``` bash
+GO111MODULE=on go get -v github.com/trusch/stellar-market-analyzer/cmd/sma
+```
+
 ## Examples
 
 ### Get Market Data for ABDT/XLM
